@@ -1,4 +1,4 @@
-## Data structures
+# Data structures
 > A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently.
 It refers to the logical or mathematical representation of data, as well as the implementation in a computer program.
 
@@ -9,6 +9,9 @@ It refers to the logical or mathematical representation of data, as well as the 
 * They can help to make your software programs more **reusable**.
 * They can help to make your software programs more **maintainable**.
 * They can help to make your software programs more **scalable**.
+
+## Linear data structures
+> Linear data structures have one level and perform linear searching. Examples include arrays, linked lists, stacks, and queues.
 
 ### Arrays
 > An array is a data structure that stores a collection of elements of the same data type in a contiguous block of memory.
