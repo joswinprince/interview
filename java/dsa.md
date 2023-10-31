@@ -11,5 +11,10 @@ It refers to the logical or mathematical representation of data, as well as the 
 * They can help to make your software programs more **scalable**.
 
 ### Arrays
-`code()`
-var a =3
+> An array is a data structure that stores a collection of elements of the same data type in a contiguous block of memory.
+
+#### Advantage
+* They are easy to use and implement.
+* They are efficient in terms of both space and time.
+* They can be used to store a variety of data.
+* They can be used to implement a variety of data structures.
