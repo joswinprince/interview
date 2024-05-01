@@ -43,5 +43,18 @@ spring boot provides access to restrict production grade management endpoints wh
 - conclusion: Overall, Spring Data JPA simplifies database access in Java applications by providing a high-level abstraction for common data access operations, reducing the amount of boilerplate code, and promoting consistency across data access layer implementations.
 
 
-6. 
+6. Key features of Spring MVC include:
+- POJO-based: Controllers and other components in Spring MVC are Plain Old Java Objects (POJOs), making them easy to test and maintain.
+- Annotation-based configuration: Spring MVC allows configuring controllers, request mappings, and other components using annotations, reducing XML configuration.
+- Flexible data binding: Supports various data binding techniques, including form handling and validation.
+- Interceptors: Provides interceptors for pre-processing and post-processing of requests and responses.
+- View resolution: Supports different view technologies such as JSP, Thymeleaf, FreeMarker, etc.
+- RESTful support: Spring MVC provides support for building RESTful web services alongside traditional web applications.
 
+7. Key principles of RESTful web services include:
+- Resource-based: In RESTful architecture, resources are identified by unique URIs (Uniform Resource Identifiers), and each resource can be manipulated using standard HTTP methods (GET, POST, PUT, DELETE, etc.). Resources represent entities such as users, products, or orders.
+- Uniform interface: RESTful services have a uniform interface, which means that clients interact with resources through a consistent set of HTTP methods and standardized representations of resources (e.g., JSON or XML).
+- Statelessness: RESTful services are stateless, meaning that each request from a client to the server must contain all the necessary information to process the request. The server does not store any client state between requests.
+Client-server architecture: RESTful systems are based on a client-server architecture, where clients and servers are separate entities that communicate over a network using HTTP protocols. This separation of concerns allows for scalability and flexibility.
+- Cacheability: Responses from RESTful services can be cached to improve performance and reduce server load. HTTP caching mechanisms can be utilized to specify caching policies for resources.
+- Layered system: RESTful architectures can be composed of multiple layers, where each layer performs a specific function. This layered approach promotes scalability and simplifies the architecture by separating concerns.
